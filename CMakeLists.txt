@@ -3,7 +3,8 @@ cmake_minimum_required(VERSION 3.12)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
 
-include(pico_sdk_import.cmake)
+set(PICO_SDK_FETCH_FROM_GIT ON)
+include(lib/pico-tflmicro/pico_sdk_import.cmake)  #lib/
 # project(pico-tflite-inference-test)
 project(pico_tflite_inference_test C CXX ASM)
 # initialize the Pico SDK
@@ -67,7 +68,7 @@ add_subdirectory(lib/font)
 
 include_directories(./src)
 include_directories(./models)
-include_directories(./lib/pico-tfmicro) # changes from tflmicro
+include_directories(./lib/pico-tflmicro)
 include_directories(./lib/config)
 include_directories(./lib/lcd)
 include_directories(./lib/font)

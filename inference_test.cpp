@@ -17,10 +17,10 @@
 
 using namespace std;
 
-int main(void) {
+int main() {
 
   System_Init();
-  sleep_ms(5000);
+  sleep_ms(50000);  // wait 50 seconds
   
   inference_test();
   return 0;

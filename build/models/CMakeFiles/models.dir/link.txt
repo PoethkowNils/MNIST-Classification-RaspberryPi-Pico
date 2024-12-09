@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libmodels.a CMakeFiles/models.dir/mnist_image_data.cpp.o CMakeFiles/models.dir/mnist_model_data.cpp.o
+/usr/bin/arm-none-eabi-ranlib libmodels.a

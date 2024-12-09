@@ -15,5 +15,5 @@ extern const char* kCategoryLabels[kCategoryCount];
 constexpr int image_col_size = 28;
 constexpr int image_row_size = 28;
 
-constexpr int arena_size = -1; // TODO: 3. Edit this for your own model.
+constexpr int arena_size = 128*1024; // 40762 for mobile net | 
 #endif  // TFLITE_INFERENCE_TEST_MODEL_SETTINGS_H_

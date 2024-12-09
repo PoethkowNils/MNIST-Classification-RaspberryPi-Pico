@@ -1,0 +1,14 @@
+# Target labels
+ picotoolBuild
+# Source files and their labels
+/home/nils03/Uni/ML_ES/IAS0360_lab_excercises_2024/lab_7/build/lib/pico-tflmicro/examples/hello_world/CMakeFiles/picotoolBuild
+/home/nils03/Uni/ML_ES/IAS0360_lab_excercises_2024/lab_7/build/lib/pico-tflmicro/examples/hello_world/CMakeFiles/picotoolBuild.rule
+/home/nils03/Uni/ML_ES/IAS0360_lab_excercises_2024/lab_7/build/lib/pico-tflmicro/examples/hello_world/CMakeFiles/picotoolBuild-complete.rule
+/home/nils03/Uni/ML_ES/IAS0360_lab_excercises_2024/lab_7/build/lib/pico-tflmicro/examples/hello_world/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule
+/home/nils03/Uni/ML_ES/IAS0360_lab_excercises_2024/lab_7/build/lib/pico-tflmicro/examples/hello_world/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule
+/home/nils03/Uni/ML_ES/IAS0360_lab_excercises_2024/lab_7/build/lib/pico-tflmicro/examples/hello_world/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule
+/home/nils03/Uni/ML_ES/IAS0360_lab_excercises_2024/lab_7/build/lib/pico-tflmicro/examples/hello_world/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule
+/home/nils03/Uni/ML_ES/IAS0360_lab_excercises_2024/lab_7/build/lib/pico-tflmicro/examples/hello_world/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule
+/home/nils03/Uni/ML_ES/IAS0360_lab_excercises_2024/lab_7/build/lib/pico-tflmicro/examples/hello_world/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule
+/home/nils03/Uni/ML_ES/IAS0360_lab_excercises_2024/lab_7/build/lib/pico-tflmicro/examples/hello_world/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule
+/home/nils03/Uni/ML_ES/IAS0360_lab_excercises_2024/lab_7/build/lib/pico-tflmicro/examples/hello_world/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule

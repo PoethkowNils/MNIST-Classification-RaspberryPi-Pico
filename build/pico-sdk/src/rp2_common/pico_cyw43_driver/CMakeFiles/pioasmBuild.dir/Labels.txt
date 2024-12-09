@@ -1,0 +1,13 @@
+# Target labels
+ pioasmBuild
+# Source files and their labels
+/home/nils03/Uni/ML_ES/IAS0360_lab_excercises_2024/lab_7/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild
+/home/nils03/Uni/ML_ES/IAS0360_lab_excercises_2024/lab_7/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.rule
+/home/nils03/Uni/ML_ES/IAS0360_lab_excercises_2024/lab_7/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild-complete.rule
+/home/nils03/Uni/ML_ES/IAS0360_lab_excercises_2024/lab_7/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-build.rule
+/home/nils03/Uni/ML_ES/IAS0360_lab_excercises_2024/lab_7/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-configure.rule
+/home/nils03/Uni/ML_ES/IAS0360_lab_excercises_2024/lab_7/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-download.rule
+/home/nils03/Uni/ML_ES/IAS0360_lab_excercises_2024/lab_7/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-install.rule
+/home/nils03/Uni/ML_ES/IAS0360_lab_excercises_2024/lab_7/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-mkdir.rule
+/home/nils03/Uni/ML_ES/IAS0360_lab_excercises_2024/lab_7/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-patch.rule
+/home/nils03/Uni/ML_ES/IAS0360_lab_excercises_2024/lab_7/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-update.rule

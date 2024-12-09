@@ -1,5 +1,5 @@
 #include <cmath> 
-#include<iostream>
+#include <iostream>
 #include <cstdlib> 
 #include <iostream>
 #include <stdio.h>
@@ -47,7 +47,7 @@ int main() {
 
   while(1) {
     printf("The tensor arena size: %d\n", ml_model.interpreter->arena_used_bytes());
-    sleep_ms(1000);
+    sleep_ms(20000);
   }
   return 0;
 }

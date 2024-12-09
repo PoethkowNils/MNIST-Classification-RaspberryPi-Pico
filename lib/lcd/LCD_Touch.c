@@ -762,6 +762,7 @@ void TP_DrawBoard(void)
                     sTP_Draw.Ypoint < 270)
                 {
                     // --- CLEAR BUTTON PRESSED ---
+                    printf("Clear button pressed.\n");
                     init_gui();
                     // reset_inference(NULL);
                     // clear_drawing();

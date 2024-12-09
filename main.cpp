@@ -3,6 +3,7 @@
 #include <cstdlib> 
 #include <iostream>
 #include <stdio.h>
+#include <string>
 
 #include "pico/stdlib.h"
 #include "pico/multicore.h"
@@ -73,7 +74,7 @@ int main(void)
     // run core1 loop that handles user interface
     multicore_launch_core1(core1_entry);
 
-        // initialize ML model
+    // initialize ML model, set the model name (initial_model, mobile_net, squeeze_net, lenet-5)
     if (!ml_model.setup()) {
         printf("Failed to initialize ML model!\n");
         HALT_CORE_1();
@@ -95,7 +96,7 @@ int main(void)
     while (true) {
         // Block the process until data being filled
         uint32_t g = multicore_fifo_pop_blocking();
-
+        
         // Acquire the mutex (blocking)
         mutex_enter_blocking(&mutex);  
 
@@ -125,7 +126,7 @@ int main(void)
               printf("Predicted: %d\n", result);
               inference.UserInputs[index].PredictedDigit = result;
           }
-          sleep_ms(200);
+          sleep_ms(200);   //increased from 200
         }
 
         printf("Login process finished.\n");

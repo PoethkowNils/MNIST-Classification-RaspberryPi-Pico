@@ -40,7 +40,7 @@ int count_digits(int number) {
     return std::floor(std::log10(number)) + 1;
 }
 
-void inference_test(void) 
+void inference_test() 
 {
     Model ml_model;
 
